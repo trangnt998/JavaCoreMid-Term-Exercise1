@@ -19,6 +19,7 @@ public class App {
         System.out.println("========Test2==========");
         String str2 = "    -You Only LIVE ONE... " +
                 "But if You do it right.\n once is Enough";
+
         res = countUppercase(str2);
         System.out.println("Số từ viết hoa là: " + res);
 

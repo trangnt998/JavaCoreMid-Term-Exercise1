@@ -50,12 +50,12 @@ public class StringWork {
 
         String str1 = str.toLowerCase();
 
-        for (int i = 0; i < str1.length(); i++){ //xử lí trường hợp chuỗi nhập vào gồm nhiều kí tự trắng đầu đoạn
-                                //hoặc kí tự đặc biệt
+        for (int i = 0; i < str1.length(); i++) { //xử lí trường hợp chuỗi nhập vào gồm nhiều kí tự trắng đầu đoạn
+            //hoặc kí tự đặc biệt
             c = str1.charAt(i);
             begin++;
             stringRes += Character.toUpperCase(c);
-            if(Character.isLetter(c)){
+            if (Character.isLetter(c)) {
                 break;
             }
         }
